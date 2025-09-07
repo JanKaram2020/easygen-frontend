@@ -4,18 +4,14 @@
 
 1. Make sure the backend server is running.
 2. Set the environment variable `NEXT_PUBLIC_BACKEND_URL` in your `.env` file.
-3. Start the development server:
-
+3. Install the dependencies
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+$ yarn install
 ```
-
+4. Start the development server:
+```bash
+yarn dev
+```
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## Pages
@@ -25,12 +21,12 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Tech Stack
 This project uses:
-1. Reactjs
-2. Next.js (App Router)
-3. TypeScript
-4. Axios
-5. Tailwind CSS
-6. shadcn/ui
+1. `Reactjs`
+2. `Next.js (App Router)`
+3. `TypeScript`
+4. `Axios`
+5. `Tailwind CSS`
+6. `shadcn/ui`
 
 ## Authentication Flow
 
