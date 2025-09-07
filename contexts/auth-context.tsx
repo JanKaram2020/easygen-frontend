@@ -7,7 +7,8 @@ import React, {
   useEffect,
   useState,
 } from "react";
-import api, { getAccessToken } from "@/lib/api";
+import api from "@/lib/api";
+import { getAccessToken } from "@/lib/auth-utils";
 
 const useFetchUser = () => {
   const [data, setData] = useState<

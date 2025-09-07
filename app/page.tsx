@@ -1,10 +1,11 @@
 "use client";
 import { useState } from "react";
-import api, { clearAccessToken } from "@/lib/api";
+import api from "@/lib/api";
 import Spinner from "@/components/ui/spinner";
 import { Button } from "@/components/ui/button";
 import { useRouter } from "next/navigation";
 import { useAuthContext } from "@/contexts/auth-context";
+import { clearAccessToken } from "@/lib/auth-utils";
 
 export default function Home() {
   const router = useRouter();

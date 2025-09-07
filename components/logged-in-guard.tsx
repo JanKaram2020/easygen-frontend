@@ -4,7 +4,7 @@ import Spinner from "@/components/ui/spinner";
 import { useRouter } from "next/navigation";
 import { useAuthContext } from "@/contexts/auth-context";
 
-const AuthedRedirectToHome = ({ children }: { children: ReactNode }) => {
+const LoggedInGuard = ({ children }: { children: ReactNode }) => {
   const router = useRouter();
   const { data, loading } = useAuthContext();
 
@@ -40,4 +40,4 @@ const AuthedRedirectToHome = ({ children }: { children: ReactNode }) => {
   return children;
 };
 
-export default AuthedRedirectToHome;
+export default LoggedInGuard;

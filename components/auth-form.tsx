@@ -11,12 +11,13 @@ import {
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import Link from "next/link";
-import api, { setAccessToken } from "@/lib/api";
+import api from "@/lib/api";
 import { useRouter } from "next/navigation";
 import { toast } from "sonner";
 import { AxiosError } from "axios";
 import { useState } from "react";
 import { useAuthContext } from "@/contexts/auth-context";
+import { setAccessToken } from "@/lib/auth-utils";
 
 const texts = {
   login: {
