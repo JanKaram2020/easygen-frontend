@@ -3,7 +3,7 @@
 ## Getting Started
 
 1. Make sure the backend server is running.
-2. Set the environment variable `NEXT_PUBLIC_BACKEND_URL` in your `.env.local` file.
+2. Set the environment variable `NEXT_PUBLIC_BACKEND_URL` in your `.env` file.
 3. Start the development server:
 
 ```bash
@@ -71,4 +71,4 @@ This project uses **JWT (JSON Web Tokens)** for authentication with **access tok
 
 5. **Logout**
     - Frontend clears the access token from `localStorage`.
-    - Backend clears the refresh token `cookies`.
+    - Backend clears the refresh token from `cookies`.
