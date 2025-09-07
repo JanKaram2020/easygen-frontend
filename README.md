@@ -21,7 +21,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ## Pages
 1. Home Page → [/](http://localhost:3000/)
 2. Login Page →  [/login](http://localhost:3000/login)
-3. Signup Page → [/login](http://localhost:3000/signup)
+3. Signup Page → [/signup](http://localhost:3000/signup)
 
 ## Tech Stack
 This project uses:
